@@ -1,4 +1,4 @@
-# 💼 Portfólio — FELPS
+# 💼 Portfólio — FELIPE
 
 Site pessoal de uma página, construído do zero em HTML, CSS e JavaScript puro. Serve como cartão de visitas: quem sou, o que sei fazer, meus projetos e como falar comigo.
 
