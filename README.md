@@ -20,7 +20,7 @@ Site pessoal de uma página, construído do zero em HTML, CSS e JavaScript puro.
 1. Suba este projeto para um repositório no GitHub (ex: `portfolio-site`)
 2. Vá em **Settings → Pages**
 3. Em "Source", selecione a branch `main`
-4. Em alguns minutos, seu site estará no ar em `https://fevipsilva7-blip.github.io/portfolio-site`
+4. Em alguns minutos, seu site estará no ar em 'https://portfolio-site-seven-drab-43.vercel.app/'
 5. **Esse link é o que você pode usar como "Portfólio" no seu README de perfil!**
 
 ##  Personalizando
