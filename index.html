@@ -1,143 +1,167 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FELIPE — Desenvolvedor Front-end</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="description" content="Portfólio de Felipe Rodrigues, desenvolvedor front-end. Projetos em JavaScript, React, APIs e aplicações com banco de dados.">
+  <meta property="og:title" content="Felipe Rodrigues — Desenvolvedor Front-end">
+  <meta property="og:description" content="Conheça meus projetos, tecnologias e minha evolução como desenvolvedor.">
+  <meta property="og:type" content="website">
+  <title>Felipe Rodrigues — Desenvolvedor Front-end</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-<div class="bg-glow"></div>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="ambient ambient--one" aria-hidden="true"></div>
+  <div class="ambient ambient--two" aria-hidden="true"></div>
 
-<nav class="nav">
-  <span class="nav__logo">FELIPE<span class="nav__logo-dot">.</span></span>
-  <div class="nav__links">
-    <a href="#sobre">Sobre</a>
-    <a href="#projetos">Projetos</a>
-    <a href="#contato">Contato</a>
-  </div>
-</nav>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="Felipe Rodrigues, início">FR<span>.</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#tecnologias">Tecnologias</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato" class="nav-contact">Vamos conversar <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
 
-<header class="hero">
-  <p class="hero__eyebrow">Desenvolvedor Front-end</p>
-  <h1 class="hero__name">FELIPE</h1>
-  <p class="hero__tagline">Transformo ideias em código — aprendendo, construindo e evoluindo um projeto de cada vez.</p>
-  <a href="#projetos" class="hero__cta">Ver projetos <span aria-hidden="true">→</span></a>
-</header>
-
-<section id="sobre" class="section">
-  <h2><span class="section__num">01</span> Sobre</h2>
-  <p class="about-text">Cada projeto abaixo foi construído aprendendo na prática — de front-end simples a aplicações full stack com banco de dados. O objetivo é sempre o mesmo: sair da ideia para o código que funciona.</p>
-</section>
-
-<section id="projetos" class="section">
-  <h2><span class="section__num">02</span> Projetos</h2>
-  <div class="projects">
-
-    <article class="project-card">
-      <div class="project-card__top">
-        <h3>Movie Explorer</h3>
-        <div class="project-card__tags">
-          <span>React</span><span>Vite</span><span>TMDB API</span>
+  <main id="conteudo">
+    <section class="hero shell" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> Construindo, aprendendo e evoluindo</p>
+        <h1 id="hero-title">Olá, eu sou<br><span class="gradient-text">Felipe Rodrigues.</span></h1>
+        <p class="hero-role">Desenvolvedor <span>Front-end</span></p>
+        <p class="hero-description">Transformo ideias em experiências web funcionais, acessíveis e responsivas. Gosto de aprender construindo projetos que resolvem problemas reais.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projetos">Explorar projetos <span aria-hidden="true">↘</span></a>
+          <a class="button button-ghost" href="https://www.linkedin.com/in/felipe-rodrigues-da-silvaa/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <span><span class="meta-line"></span> HTML · CSS · JavaScript · React</span>
+          <a href="https://github.com/fevipsilva7-blip" target="_blank" rel="noopener noreferrer">github.com/fevipsilva7-blip ↗</a>
         </div>
       </div>
-      <p>App que consome a API pública do TMDB para buscar filmes em alta e por título, com sinopse, gêneros, duração e nota.</p>
-      <div class="project-card__links">
-        <a href="https://movie-explorer2-seven.vercel.app/" target="_blank" rel="noopener">Ver ao vivo →</a>
-        <a href="https://github.com/fevipsilva7-blip/movie-explorer" target="_blank" rel="noopener">GitHub →</a>
+      <div class="hero-visual reveal" aria-label="Cartão visual com resumo de desenvolvedor">
+        <div class="visual-top"><span>PROFILE / 001</span><span class="live-label"><i></i> OPEN TO OPPORTUNITIES</span></div>
+        <div class="orbit orbit--outer"></div><div class="orbit orbit--inner"></div>
+        <div class="monogram">F<span>R</span></div>
+        <div class="visual-bottom">
+          <div><span class="micro-label">FOCO ATUAL</span><strong>Front-end Development</strong></div>
+          <div class="visual-mark" aria-hidden="true">✳</div>
+        </div>
+        <div class="floating-chip chip--top">const passion = "code";</div>
+        <div class="floating-chip chip--bottom"><span class="chip-dot"></span> Sempre em evolução</div>
       </div>
-    </article>
+      <a class="scroll-cue" href="#sobre"><span></span> ROLE PARA EXPLORAR</a>
+    </section>
 
-    <article class="project-card">
-      <div class="project-card__top">
-        <h3>Pulse — Dashboard</h3>
-        <div class="project-card__tags">
-          <span>React</span><span>Vite</span><span>Recharts</span>
+    <section class="section shell" id="sobre" aria-labelledby="about-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / SOBRE MIM</p>
+        <h2 id="about-title">Tecnologia me interessa.<br><span class="muted-heading">Construir me move.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>Comecei a estudar programação do zero porque queria entender como a tecnologia funciona por trás das telas. Desde então, venho transformando o aprendizado em projetos práticos, explorando interfaces, consumo de APIs e aplicações conectadas a bancos de dados.</p>
+          <p>Meu foco é crescer como desenvolvedor front-end, fortalecer meus fundamentos e aprender a tomar decisões técnicas com intenção — sempre buscando código organizado e experiências melhores para quem usa o produto.</p>
+          <a class="text-link" href="https://github.com/fevipsilva7-blip" target="_blank" rel="noopener noreferrer">Acompanhe minha evolução no GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+        <aside class="principles reveal" aria-label="Princípios de trabalho">
+          <div class="principle"><span class="principle-number">01</span><div><h3>Aprender na prática</h3><p>Transformar conceitos em projetos que funcionam.</p></div></div>
+          <div class="principle"><span class="principle-number">02</span><div><h3>Resolver problemas</h3><p>Entender o desafio antes de escolher a solução.</p></div></div>
+          <div class="principle"><span class="principle-number">03</span><div><h3>Evoluir sempre</h3><p>Revisar, testar e melhorar a cada entrega.</p></div></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="tecnologias" aria-labelledby="tech-title">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 / CAIXA DE FERRAMENTAS</p>
+          <h2 id="tech-title">Tecnologias que <span class="gradient-text">utilizo.</span></h2>
+          <p class="section-intro">Ferramentas que venho estudando e aplicando nos meus projetos pessoais.</p>
+        </div>
+        <div class="tech-grid">
+          <article class="tech-card reveal"><span class="tech-symbol">&lt;/&gt;</span><h3>Front-end</h3><p>HTML5 · CSS3 · JavaScript · React · Vite</p></article>
+          <article class="tech-card reveal"><span class="tech-symbol">↔</span><h3>Integração</h3><p>APIs REST · Fetch · JSON · Recharts</p></article>
+          <article class="tech-card reveal"><span class="tech-symbol">⌘</span><h3>Back-end e dados</h3><p>Node.js · Express · SQL · SQLite · CRUD</p></article>
+          <article class="tech-card reveal"><span class="tech-symbol">⎇</span><h3>Ferramentas</h3><p>Git · GitHub · DevTools · localStorage</p></article>
+        </div>
+        <p class="tech-note"><span aria-hidden="true">*</span> Lista baseada nas tecnologias estudadas e utilizadas nos projetos apresentados.</p>
+      </div>
+    </section>
+
+    <section class="section shell" id="projetos" aria-labelledby="projects-title">
+      <div class="projects-heading reveal">
+        <div class="section-heading">
+          <p class="eyebrow">03 / TRABALHOS SELECIONADOS</p>
+          <h2 id="projects-title">Projetos em <span class="gradient-text">destaque.</span></h2>
+          <p class="section-intro">Cada projeto é uma oportunidade de aprender algo novo e colocar conceitos em prática.</p>
+        </div>
+        <a class="text-link all-projects" href="https://github.com/fevipsilva7-blip?tab=repositories" target="_blank" rel="noopener noreferrer">Todos os repositórios <span aria-hidden="true">↗</span></a>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card project-card--featured reveal">
+          <div class="project-art art-dashboard" aria-hidden="true">
+            <div class="mock-window"><div class="mock-bar"><i></i><i></i><i></i><span>pulse / analytics</span></div><div class="mock-dashboard"><div class="mock-side"></div><div class="mock-content"><div class="mock-kpis"><b></b><b></b><b></b></div><div class="mock-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="mock-row"></div></div></div></div>
+            <span class="art-index">CASE 01</span>
+          </div>
+          <div class="project-info"><div class="project-kicker">DASHBOARD · VISUALIZAÇÃO DE DADOS</div><h3>Pulse — Dashboard</h3><p>Painel administrativo responsivo com indicadores, gráficos e tabela de pedidos, incluindo alternância entre tema claro e escuro.</p><div class="tag-list"><span>React</span><span>Vite</span><span>Recharts</span></div><div class="project-links"><a href="https://react-dashboard2-tau.vercel.app/" target="_blank" rel="noopener noreferrer">Ver demonstração <span>↗</span></a><a href="https://github.com/fevipsilva7-blip/react-dashboard-" target="_blank" rel="noopener noreferrer">Código-fonte <span>↗</span></a></div></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-art art-movie" aria-hidden="true"><div class="movie-screen"><span class="movie-play">▶</span><div class="movie-lines"><i></i><i></i><i></i></div></div><span class="art-index">CASE 02</span></div>
+          <div class="project-info"><div class="project-kicker">APLICAÇÃO WEB · API</div><h3>Movie Explorer</h3><p>Busca de filmes usando a API do TMDB, com informações como sinopse, gêneros, duração e avaliação.</p><div class="tag-list"><span>React</span><span>Vite</span><span>TMDB API</span></div><div class="project-links"><a href="https://movie-explorer2-seven.vercel.app/" target="_blank" rel="noopener noreferrer">Ver demonstração <span>↗</span></a><a href="https://github.com/fevipsilva7-blip/movie-explorer" target="_blank" rel="noopener noreferrer">Código-fonte <span>↗</span></a></div></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-art art-database" aria-hidden="true"><div class="database-stack"><span></span><span></span><span></span></div><div class="db-lines"><i></i><i></i><i></i></div><span class="art-index">CASE 03</span></div>
+          <div class="project-info"><div class="project-kicker">FULL STACK · CRUD</div><h3>Cadastro de Clientes</h3><p>Sistema para gerenciar clientes com operações de criação, consulta, edição e exclusão, conectado a banco de dados.</p><div class="tag-list"><span>Node.js</span><span>Express</span><span>SQLite</span></div><div class="project-links"><a href="https://customer-manager-4hiv.onrender.com/" target="_blank" rel="noopener noreferrer">Ver demonstração <span>↗</span></a><a href="https://github.com/fevipsilva7-blip/customer-manager" target="_blank" rel="noopener noreferrer">Código-fonte <span>↗</span></a></div></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-art art-notes" aria-hidden="true"><div class="note-sheet"><span>FIELD NOTES</span><i></i><i></i><i></i><b>✓</b></div><span class="art-index">CASE 04</span></div>
+          <div class="project-info"><div class="project-kicker">PRODUTIVIDADE · FRONT-END</div><h3>Field Notes</h3><p>Lista de tarefas com visual inspirado em caderno e persistência de dados no navegador.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>localStorage</span></div><div class="project-links"><a href="https://todo-list-nu-lovat-56.vercel.app/" target="_blank" rel="noopener noreferrer">Ver demonstração <span>↗</span></a><a href="https://github.com/fevipsilva7-blip/todo-list" target="_blank" rel="noopener noreferrer">Código-fonte <span>↗</span></a></div></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-art art-memory" aria-hidden="true"><div class="memory-cards"><i>?</i><i>✳</i><i>?</i><i>✳</i></div><span class="art-index">CASE 05</span></div>
+          <div class="project-info"><div class="project-kicker">JOGO · LÓGICA</div><h3>Jogo da Memória</h3><p>Jogo de cartas com pontuação, cronômetro e animações de virada, praticando lógica e manipulação do DOM.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://memory-game-two-ivory.vercel.app/" target="_blank" rel="noopener noreferrer">Ver demonstração <span>↗</span></a><a href="https://github.com/fevipsilva7-blip/memory-game" target="_blank" rel="noopener noreferrer">Código-fonte <span>↗</span></a></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contato" aria-labelledby="contact-title">
+      <div class="shell contact-inner reveal">
+        <p class="eyebrow">04 / PRÓXIMO PASSO</p>
+        <h2 id="contact-title">Vamos construir<br><span class="gradient-text">algo legal?</span></h2>
+        <p>Estou em busca de oportunidades para aprender com outros profissionais, contribuir com projetos e continuar evoluindo em desenvolvimento web.</p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:fevipsilva7@gmail.com">Fale comigo por e-mail <span aria-hidden="true">↗</span></a>
+          <button class="button button-ghost copy-email" type="button" data-email="fevipsilva7@gmail.com">Copiar e-mail</button>
+        </div>
+        <p class="copy-status" aria-live="polite"></p>
+        <div class="social-links">
+          <a href="https://github.com/fevipsilva7-blip" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a>
+          <a href="https://www.linkedin.com/in/felipe-rodrigues-da-silvaa/" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a>
+          <a href="https://www.instagram.com/fepls_xzx/" target="_blank" rel="noopener noreferrer">Instagram <span>↗</span></a>
         </div>
       </div>
-      <p>Painel administrativo responsivo com KPIs, gráficos de linha/barra/pizza, tabela de pedidos e tema claro/escuro.</p>
-      <div class="project-card__links">
-        <a href="https://react-dashboard2-tau.vercel.app/" target="_blank" rel="noopener">Ver ao vivo →</a>
-        <a href="https://github.com/fevipsilva7-blip/react-dashboard-" target="_blank" rel="noopener">GitHub →</a>
-      </div>
-    </article>
+    </section>
+  </main>
 
-    <article class="project-card">
-      <div class="project-card__top">
-        <h3>Sistema de Cadastro de Clientes</h3>
-        <div class="project-card__tags">
-          <span>Node.js</span><span>Express</span><span>SQLite</span>
-        </div>
-      </div>
-      <p>Aplicação full stack com CRUD completo para gerenciamento de clientes, usando banco de dados SQLite.</p>
-      <div class="project-card__links">
-        <a href="https://customer-manager-4hiv.onrender.com/" target="_blank" rel="noopener">Ver ao vivo →</a>
-        <a href="https://github.com/fevipsilva7-blip/customer-manager" target="_blank" rel="noopener">GitHub →</a>
-      </div>
-    </article>
-
-    <article class="project-card">
-      <div class="project-card__top">
-        <h3>Field Notes</h3>
-        <div class="project-card__tags">
-          <span>HTML</span><span>CSS</span><span>JavaScript</span>
-        </div>
-      </div>
-      <p>Lista de tarefas com visual de caderno, dados salvos localmente no navegador.</p>
-      <div class="project-card__links">
-        <a href="https://todo-list-nu-lovat-56.vercel.app/" target="_blank" rel="noopener">Ver ao vivo →</a>
-        <a href="https://github.com/fevipsilva7-blip/todo-list" target="_blank" rel="noopener">GitHub →</a>
-      </div>
-    </article>
-
-    <article class="project-card">
-      <div class="project-card__top">
-        <h3>Portfólio Pessoal</h3>
-        <div class="project-card__tags">
-          <span>HTML</span><span>CSS</span><span>JavaScript</span>
-        </div>
-      </div>
-      <p>Este site — construído do zero para reunir meus projetos e formas de contato.</p>
-      <div class="project-card__links">
-        <a href="https://github.com/fevipsilva7-blip/portfolio-site" target="_blank" rel="noopener">GitHub →</a>
-      </div>
-    </article>
-
-    <article class="project-card">
-      <div class="project-card__top">
-        <h3>Jogo da Memória</h3>
-        <div class="project-card__tags">
-          <span>HTML</span><span>CSS</span><span>JavaScript</span>
-        </div>
-      </div>
-      <p>Jogo de cartas com sistema de pontuação, cronômetro e animações de virada.</p>
-      <div class="project-card__links">
-        <a href="https://memory-game-two-ivory.vercel.app/" target="_blank" rel="noopener">Ver ao vivo →</a>
-        <a href="https://github.com/fevipsilva7-blip/memory-game" target="_blank" rel="noopener">GitHub →</a>
-      </div>
-    </article>
-
-  </div>
-</section>
-
-<section id="contato" class="section section--contact">
-  <h2><span class="section__num">03</span> Contato</h2>
-  <p>Aberto a oportunidades, parcerias ou só trocar uma ideia sobre código.</p>
-  <div class="contact-links">
-    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=fevipsilva7@gmail.com">E-mail</a>
-    <a href="https://github.com/fevipsilva7-blip" target="_blank" rel="noopener">GitHub</a>
-    <a href="https://www.linkedin.com/in/felipe-rodrigues-da-silvaa" target="_blank" rel="noopener">LinkedIn</a>
-    <a href="https://www.instagram.com/fepls_xzx/" target="_blank" rel="noopener">Instagram</a>
-  </div>
-</section>
-
-<footer class="footer">
-  <p>Feito por FELIPE.</p>
-</footer>
-
-<script src="script.js"></script>
+  <footer class="footer shell"><a class="brand" href="#inicio">FR<span>.</span></a><p>Feito com intenção, curiosidade e código.</p><span>© <span id="year"></span> Felipe Rodrigues</span></footer>
+  <a class="back-to-top" href="#inicio" aria-label="Voltar ao início">↑</a>
 </body>
 </html>
