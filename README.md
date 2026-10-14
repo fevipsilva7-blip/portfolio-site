@@ -42,7 +42,5 @@ Site pessoal de uma página, feito do zero com HTML, CSS e JavaScript puro. Apre
 2. Abra o `index.html` no navegador
 
 ## Contato
-
-- E-mail: fevipsilva7@gmail.com
 - [GitHub](https://github.com/fevipsilva7-blip)
 - [LinkedIn](https://www.linkedin.com/in/felipe-rodrigues-da-silvaa/)
