@@ -1,36 +1,48 @@
-#  Portfólio — FELIPE
+# Portfólio — Felipe Rodrigues
 
-Site pessoal de uma página, construído do zero em HTML, CSS e JavaScript puro. Serve como cartão de visitas: quem sou, o que sei fazer, meus projetos e como falar comigo.
+Site pessoal de uma página, feito do zero com HTML, CSS e JavaScript puro. Apresenta quem eu sou, as tecnologias que estudo, meus projetos e como entrar em contato.
 
-##  O que tem aqui
+🔗 **Acesse online:** https://portfolio-site-seven-drab-43.vercel.app/
 
-- Seção de apresentação (hero) com nome e tagline
-- Sobre mim + tags de habilidades
-- Cards de projetos com links para os repositórios
-- Seção de contato com e-mail, GitHub, LinkedIn e Instagram
-- Navegação que destaca a seção visível na tela
+## O que tem aqui
 
-##  Como rodar localmente
+- **Hero** com apresentação, cargo e links rápidos para LinkedIn e GitHub
+- **Sobre mim** com minha trajetória e princípios de trabalho
+- **Tecnologias** que venho estudando e aplicando (Front-end, Integração, Back-end e dados, Ferramentas)
+- **Projetos em destaque**, cada um com demonstração online e código-fonte:
+  - Pulse — Dashboard (React, Vite, Recharts)
+  - Movie Explorer (React, Vite, TMDB API)
+  - Cadastro de Clientes (Node.js, Express, SQLite)
+  - Field Notes (HTML, CSS, JavaScript, localStorage)
+  - Jogo da Memória (HTML, CSS, JavaScript)
+- **Contato** com e-mail (com botão de copiar), GitHub, LinkedIn e Instagram
 
-1. Baixe ou clone este repositório
-2. Abra `index.html` no navegador
+## Destaques técnicos
 
-##  Como colocar online (GitHub Pages) — recomendado
+- Layout responsivo com menu mobile
+- Navegação que destaca a seção visível durante a rolagem
+- Animações de entrada ao rolar a página, desativadas para quem usa `prefers-reduced-motion`
+- Acessibilidade: link "pular para o conteúdo", atributos `aria-*` e foco visível
 
-1. Suba este projeto para um repositório no GitHub (ex: `portfolio-site`)
-2. Vá em **Settings → Pages**
-3. Em "Source", selecione a branch `main`
-4. Em alguns minutos, seu site estará no ar em 'https://portfolio-site-seven-drab-43.vercel.app/'
-5. **Esse link é o que você pode usar como "Portfólio" no seu README de perfil!**
-
-##  Personalizando
-
-- Troque o texto da seção "Sobre" em `index.html` pelo seu próprio
-- Atualize os links dos cards de projeto conforme for criando repositórios novos
-- As cores ficam centralizadas no topo do `style.css`, dentro de `:root`
-
-##  Tecnologias
+## Tecnologias
 
 - HTML5
-- CSS3 (Grid, variáveis CSS, sem frameworks)
-- JavaScript puro (Intersection Observer API)
+- CSS3 (Grid, Flexbox, variáveis CSS, sem frameworks)
+- JavaScript puro (Intersection Observer API e Clipboard API)
+
+## Estrutura
+
+    index.html   # conteúdo da página
+    style.css    # estilos e variáveis de cor (:root)
+    script.js    # menu, destaque da navegação, animações e botão de copiar
+
+## Como rodar localmente
+
+1. Baixe ou clone este repositório
+2. Abra o `index.html` no navegador
+
+## Contato
+
+- E-mail: fevipsilva7@gmail.com
+- [GitHub](https://github.com/fevipsilva7-blip)
+- [LinkedIn](https://www.linkedin.com/in/felipe-rodrigues-da-silvaa/)
