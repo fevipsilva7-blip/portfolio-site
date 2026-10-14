@@ -2,7 +2,7 @@
 
 Site pessoal de uma página, feito do zero com HTML, CSS e JavaScript puro. Apresenta quem eu sou, as tecnologias que estudo, meus projetos e como entrar em contato.
 
-🔗 **Acesse online:** https://portfolio-site-seven-drab-43.vercel.app/
+🔗 **Acesse online:** https://portfolio-site-felipe-d870.vercel.app
 
 ## O que tem aqui
 
