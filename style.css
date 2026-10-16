@@ -198,3 +198,21 @@ button { font: inherit; }
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+
+.hero h1 {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.gradient-text {
+  background: linear-gradient(
+    105deg,
+    #f2f5fb 6%,
+    #a9a1ff 52%,
+    #45e0c1 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
