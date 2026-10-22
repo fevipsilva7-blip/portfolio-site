@@ -1,8 +1,8 @@
 # Portfólio — Felipe Rodrigues
 
-Site pessoal de uma página, feito do zero com HTML, CSS e JavaScript puro. Apresenta quem eu sou, as tecnologias que estudo, meus projetos e como entrar em contato.
+[![Demo](https://img.shields.io/badge/DEMO-ff00c8?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-site-five-jet-79.vercel.app/)
 
-🔗 **Acesse online:** https://portfolio-site-five-jet-79.vercel.app/
+Site pessoal de uma página, feito do zero com HTML, CSS e JavaScript puro. Apresenta quem eu sou, as tecnologias que estudo, meus projetos e como entrar em contato.
 
 ## O que tem aqui
 
@@ -32,9 +32,11 @@ Site pessoal de uma página, feito do zero com HTML, CSS e JavaScript puro. Apre
 
 ## Estrutura
 
-    index.html   # conteúdo da página
-    style.css    # estilos e variáveis de cor (:root)
-    script.js    # menu, destaque da navegação, animações e botão de copiar
+```
+index.html   # conteúdo da página
+style.css    # estilos e variáveis de cor (:root)
+script.js    # menu, destaque da navegação, animações e botão de copiar
+```
 
 ## Como rodar localmente
 
@@ -42,5 +44,6 @@ Site pessoal de uma página, feito do zero com HTML, CSS e JavaScript puro. Apre
 2. Abra o `index.html` no navegador
 
 ## Contato
+
 - [GitHub](https://github.com/fevipsilva7-blip)
 - [LinkedIn](https://www.linkedin.com/in/felipe-rodrigues-da-silvaa/)
